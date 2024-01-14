@@ -48,7 +48,8 @@ class NotesListViewController: UITableViewController {
     @objc
     private func addAction() {
         let noteViewController = NoteViewController()
-        navigationController?.pushViewController(noteViewController, animated: true)    }
+        navigationController?.pushViewController(noteViewController, animated: true)
+    }
 }
 
 // MARK: - UITableViewDataSource
