@@ -24,6 +24,7 @@ final class SimpleNoteTableViewCell: UITableViewCell {
         
         return label
     }()
+    
     // MARK: - Initialisations
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -34,6 +35,7 @@ final class SimpleNoteTableViewCell: UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
     // MARK: - Methods
     func set(note: Note) {
         titleLabel.text = note.title

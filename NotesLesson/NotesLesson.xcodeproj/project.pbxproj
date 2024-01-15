@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		063F48ED2B49E09C00E90E92 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F48EC2B49E09C00E90E92 /* NoteViewController.swift */; };
+		063F48F12B4D762C00E90E92 /* CategoryViewCell .swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F48F02B4D762C00E90E92 /* CategoryViewCell .swift */; };
+		063F48F62B4DB45D00E90E92 /* SelectStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F48F52B4DB45D00E90E92 /* SelectStyleViewController.swift */; };
 		06AB9BC72B45FA3B000E229C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AB9BC62B45FA3B000E229C /* AppDelegate.swift */; };
 		06AB9BCB2B45FA3B000E229C /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AB9BCA2B45FA3B000E229C /* NotesListViewController.swift */; };
 		06AB9BD02B45FA3C000E229C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06AB9BCF2B45FA3C000E229C /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		063F48EC2B49E09C00E90E92 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		063F48F02B4D762C00E90E92 /* CategoryViewCell .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategoryViewCell .swift"; sourceTree = "<group>"; };
+		063F48F52B4DB45D00E90E92 /* SelectStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStyleViewController.swift; sourceTree = "<group>"; };
 		06AB9BC32B45FA3B000E229C /* NotesLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AB9BC62B45FA3B000E229C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06AB9BCA2B45FA3B000E229C /* NotesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		063F48F22B4D76DC00E90E92 /* SelectStyleView */ = {
+			isa = PBXGroup;
+			children = (
+				063F48F02B4D762C00E90E92 /* CategoryViewCell .swift */,
+				063F48F52B4DB45D00E90E92 /* SelectStyleViewController.swift */,
+			);
+			path = SelectStyleView;
+			sourceTree = "<group>";
+		};
 		06AB9BBA2B45FA3B000E229C = {
 			isa = PBXGroup;
 			children = (
@@ -109,8 +122,9 @@
 		06AB9C0C2B488C4A000E229C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				06AB9BCA2B45FA3B000E229C /* NotesListViewController.swift */,
+				063F48F22B4D76DC00E90E92 /* SelectStyleView */,
 				06AB9C022B46CEEE000E229C /* ImageNoteTableViewCell.swift */,
+				06AB9BCA2B45FA3B000E229C /* NotesListViewController.swift */,
 				06AB9BFF2B46CE8C000E229C /* SimpleNoteTableViewCell.swift */,
 			);
 			path = View;
@@ -226,11 +240,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				06AB9C172B498850000E229C /* UIColor+Ex.swift in Sources */,
+				063F48F12B4D762C00E90E92 /* CategoryViewCell .swift in Sources */,
 				06AB9C152B489B7B000E229C /* TableViewSection.swift in Sources */,
 				06AB9C0F2B488E86000E229C /* Note.swift in Sources */,
 				06AB9BCB2B45FA3B000E229C /* NotesListViewController.swift in Sources */,
 				063F48ED2B49E09C00E90E92 /* NoteViewController.swift in Sources */,
 				06AB9BC72B45FA3B000E229C /* AppDelegate.swift in Sources */,
+				063F48F62B4DB45D00E90E92 /* SelectStyleViewController.swift in Sources */,
 				06AB9C002B46CE8C000E229C /* SimpleNoteTableViewCell.swift in Sources */,
 				06AB9C132B48918A000E229C /* NotesListViewModel.swift in Sources */,
 				06AB9C032B46CEEE000E229C /* ImageNoteTableViewCell.swift in Sources */,
